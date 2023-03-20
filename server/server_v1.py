@@ -1,13 +1,8 @@
 import socket, threading, datetime, json, API
 
-#larsid.net/29000 (fora da UEFS)
-#172.16.103.15:9000 (dentro do LABOTEC)
-#user tec502
-#senha: eunaoseiasenha
-
 CLIENT_PORT = 2126
 MEASURE_PORT = 1330
-HOST = socket.gethostbyname(socket.gethostname())
+HOST = socket.gethostbyname(socket.gethostname()) #"172.16.103.212"
 CLIENT_ADDR = (HOST, CLIENT_PORT)
 MEASURE_ADDR = (HOST, MEASURE_PORT)
 FORMAT = 'utf-8'
