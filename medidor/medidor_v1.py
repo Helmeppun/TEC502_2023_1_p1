@@ -1,7 +1,7 @@
 import socket, random, time, threading, datetime
 
 PORT = 1330
-HOST = "172.31.112.1"
+HOST = "172.16.103.212"
 ADDR = (HOST, PORT)
 FORMAT = 'utf-8'
 cod = 0
